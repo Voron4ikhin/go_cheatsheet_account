@@ -1,4 +1,4 @@
-module account
+module github.com/voron4ikhin/go_cheatsheet_account
 
 go 1.26.1
 
@@ -63,6 +63,7 @@ require (
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.3.2 // indirect
 	github.com/urfave/cli/v2 v2.27.7 // indirect
+	github.com/voron4ikhin/go_cheatsheet_contracts v1.0.2 // indirect
 	github.com/xrash/smetrics v0.0.0-20250705151800-55b8f293f342 // indirect
 	go.mongodb.org/mongo-driver/v2 v2.8.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
