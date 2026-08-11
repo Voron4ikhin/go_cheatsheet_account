@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"account/internal/config"
+	"github.com/voron4ikhin/go_cheatsheet_account/internal/config"
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/fatih/color"
