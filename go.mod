@@ -7,10 +7,11 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/fatih/color v1.19.0
 	github.com/joho/godotenv v1.5.1
+	github.com/lib/pq v1.12.3
 	github.com/pressly/goose/v3 v3.27.3
 	github.com/rs/zerolog v1.35.1
 	github.com/swaggo/swag v1.16.6
-	github.com/voron4ikhin/go_cheatsheet_contracts v1.0.3
+	github.com/voron4ikhin/go_cheatsheet_contracts v1.0.4
 	google.golang.org/grpc v1.83.0
 	google.golang.org/protobuf v1.36.12
 	gorm.io/driver/postgres v1.6.2
