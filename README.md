@@ -40,10 +40,10 @@ make run-only
 
 ```bash
 # Сборка образа
-docker build -t account-service .
+deployment build -t account-service .
 
 # Запуск контейнера
-docker run -p 50051:50051 --env-file .env account-service
+deployment run -p 50051:50051 --env-file .env account-service
 ```
 
 ### Полезные команды
