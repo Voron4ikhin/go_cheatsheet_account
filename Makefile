@@ -12,6 +12,12 @@ GOFILES ?= $(shell find . -name "*.go" -type f -not -path "./vendor/*" -not -pat
 # Default target
 .DEFAULT_GOAL := build
 
+docker-up:
+	cd deployment/local && docker-compose up -d
+
+docker-down:
+	cd deployment/local && docker-compose down
+
 # Build the application
 build:
 	@echo "Building $(APP_NAME)..."
